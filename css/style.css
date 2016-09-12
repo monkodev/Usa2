@@ -6,7 +6,12 @@ nav {
 	text-shadow: rgba(255,255,0,1);
 	font-size: 22px;
 	padding-right: 60px;
+	background-color: grey;
 }
 
 body {}
+
+.separacion {
+	margin-bottom: 10px;
+}
 
