@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+
+nav {
+	font-family: 'Dancing Script', cursive;
+	color: rgb(255,0,0);
+	text-shadow: rgba(255,255,0,1);
+	font-size: 22px;
+	padding-right: 60px;
+}
+
+body {}
+
