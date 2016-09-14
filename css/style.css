@@ -24,3 +24,11 @@ body {}
 	font-style: italic;
 	text-align: justify-all;
 }
+
+.espacio {
+	margin-top: 0px;
+}
+
+.contene {
+	height: 80px;
+}
