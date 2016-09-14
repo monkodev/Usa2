@@ -18,3 +18,9 @@ body {}
 .azulito {
 	color: blue;
 }
+
+.textomodal {
+	padding: 15px 25px 5px 25px;
+	font-style: italic;
+	text-align: justify-all;
+}
