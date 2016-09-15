@@ -9,7 +9,13 @@ nav {
 	background-color: grey;
 }
 
-body {}
+#respo {
+	display: none;
+}
+
+#imgresponsive {
+	display: none;
+}
 
 .separacion {
 	margin-bottom: 10px;
@@ -44,6 +50,10 @@ body {}
 	padding-top: 20px;
 }
 
+.derecha .botones .btn-primary{
+	background-color: rgba(219, 100, 31, 1);
+}
+
 footer {
 	padding: 0px 0;
 	text-align: center;
@@ -63,14 +73,38 @@ footer img {
   .list-group{
     display: none;
   }
+  #respo{
+  	display: block;
+  	text-align: right;
+  	float: right;
+  }
+
+ #btn1, #btn2 {
+ 	display: none;
+ 	 }
 }
 
-@media (max-width: 840px) {
-  .list-group{
+@media  (max-width: 768px) {
+
+    .list-group{
     display: none;
   }
-  .botones {
-  	display: none;
+  #respo{
+  	display: inline-block;
+  	text-align: right;
+  	float: right;
   }
+
+   #btn1, #btn2 {
+ 	display: none;
+ 	 }
+
+  #imgresponsive {
+  	display: block;
+  }
+
+	#imgnormal {
+	display: none;
+}
 
 }
