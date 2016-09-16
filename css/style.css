@@ -7,52 +7,62 @@ nav {
 	font-size: 22px;
 	padding-right: 60px;
 	background-color: grey;
-}
+	}
 
-#respo {
+#imgresponsive,#imgresponsivecelu {
 	display: none;
-}
-
-#imgresponsive {
-	display: none;
-}
+	}
 
 .separacion {
 	margin-bottom: 10px;
-}
+	}
 
 .azulito {
 	color: blue;
-}
+	}
 
 .textomodal {
 	padding: 15px 25px 5px 25px;
 	font-style: italic;
 	text-align: justify-all;
-}
+	}
 
 .espacio {
 	margin-top: 0px;
-}
-
-.contene {
-	height: 80px;
-}
+	}
 
 .anchito {
 	width: 95%;
 	padding: 15px 15px 15px 15px;
-}
+	}
 
 .derecha {
 	text-align: right;
-	font-size: 16px;
+	font-size: 25px;
 	padding-top: 20px;
-}
+	}
 
-.derecha .botones .btn-primary{
+#botones1, #botones2 {
 	background-color: rgba(219, 100, 31, 1);
-}
+     color: white;
+     margin: 5px;
+     padding: 10px;
+     border-radius: 15px;
+     border: 1px solid black;
+     text-align: center;
+     text-shadow: 2px 2px 0px #2c2e38;
+	}
+
+#botones3 {
+	background-color: #ffaa80;
+      color: white;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 15px;
+      border: 1px solid black;
+      text-shadow: 2px 2px 0px #2c2e38;
+    }
+
 
 footer {
 	padding: 0px 0;
@@ -60,50 +70,41 @@ footer {
 	font-size: 12px;
 	height: 20px;
 	background-color: rgba(255,255,255,0.5);
-}
+	}
 
 footer img {
 	height: 20px;
 	widows: 20px;
 	text-align: center;
 	vertical-align: middle;
-}
+	}
 
 @media (min-width: 768px) and (max-width: 991px) {
   .list-group{
     display: none;
   }
-  #respo{
-  	display: block;
-  	text-align: right;
-  	float: right;
-  }
-
- #btn1, #btn2 {
- 	display: none;
- 	 }
 }
 
-@media  (max-width: 768px) {
+@media (min-width: 449px) and (max-width: 873px ) {
+  #imgresponsive {
+  	display: block;
+  	}
+	#imgnormal {
+	display: none;
+	}
+}
+@media  (max-width: 449px) {
+    #imgresponsive,#imgnormal {
+    	display: none;
+    }
+    #imgresponsivecelu {
+    	display: block;
+    }
+}
 
+
+@media  (max-width: 768px) {
     .list-group{
     display: none;
   }
-  #respo{
-  	display: inline-block;
-  	text-align: right;
-  	float: right;
-  }
-
-   #btn1, #btn2 {
- 	display: none;
- 	 }
-
-  #imgresponsive {
-  	display: block;
-  }
-
-	#imgnormal {
-	display: none;
-}
 }
